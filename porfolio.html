@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yesh Raj | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        nav {
+            margin: 20px 0;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffeb3b;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transform: scale(0.9);
+            transition: transform 0.5s ease-in-out, background 0.5s;
+        }
+        section:hover {
+            transform: scale(1);
+            background: rgba(255, 255, 255, 0.3);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yesh Raj</h1>
+        <p>Engineering Graduate | Software Developer | Machine Learning Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Engineering graduate from SJB Institute of Technology, Bengaluru. Passionate about software development, web technologies, and machine learning.</p>
+        <p>Skills: Java, Python, C, JavaScript, SQL</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Simple Weather App:</strong> Web app fetching real-time weather using OpenWeatherMap API.</li>
+            <li><strong>Library Management System:</strong> Web-based system for managing book checkouts and returns.</li>
+            <li><strong>Sentiment Analysis:</strong> Machine learning model classifying text sentiment.</li>
+        </ul>
+    </section>
+    <section id="experience">
+        <h2>Experience & Certifications</h2>
+        <p>Internship in Machine Learning at Take it Smart (Nov 2023 - Dec 2023)</p>
+        <p>Certified in Java & Data Structures (Udemy, 2023)</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: iamyeshraj@gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/yesh-raj-6aa52225b">LinkedIn</a></p>
+        <p><a href="https://github.com/dashboard">GitHub</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Yesh Raj. All rights reserved.</p>
+    </footer>
+</body>
+</html>
